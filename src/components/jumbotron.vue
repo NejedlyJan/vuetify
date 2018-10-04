@@ -2,12 +2,12 @@
   <v-jumbotron height="700px">
       <v-container fill-height>
         <v-layout align-center row>
-          <v-flex md4 >
-            <h2 class="display-3">Welcome to the site</h2>
+          <v-flex md4 offset-md1>
+            <h2 class="display-3 indigo--text text--darken-3">Lorem ipsum dolor sit amet</h2>
 
-            <span class="subheading">Lorem ipsum dolor sit amet, pri veniam forensibus id. Vis maluisset molestiae id, ad semper lobortis cum.</span>
+            <span class="subheading indigo--text text--darken-3">Lorem ipsum dolor sit amet, pri veniam forensibus id. Vis maluisset molestiae id, ad semper lobortis cum.</span>
 
-            <v-divider class="my-3"></v-divider>
+            <v-divider class="pr-3"></v-divider>
 
             <div class="title mb-3">Check out our newest features!</div>
 
@@ -19,9 +19,8 @@
               See more
             </v-btn>
           </v-flex>
-          <v-spacer></v-spacer>
-          <v-flex md4>
-            <v-form v-model="valid">
+          <v-flex md3 offset-md2>
+            <v-form v-model="valid" class="mt-3">
               <div class="smally">
               <h2>Přihlášení do souteže</h2>
               <v-text-field class="caption"
@@ -64,7 +63,7 @@
                 @blur="$v.checkbox.$touch()"
               ></v-checkbox>
               <div>
-        <v-btn depressed color="primary">Primary</v-btn>
+        <v-btn text-md-center depressed color="primary">Primary</v-btn>
       </div>
     </div>
             </v-form>

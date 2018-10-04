@@ -1,0 +1,15 @@
+/*main css*/
+.indigo--text,div.v-toolbar__items:nth-child(1) > button:nth-child(2) {
+  pointer-events: none
+}
+.goal, .challange {
+  height:500px
+}
+.goal p, .challange p {
+  text-transform: uppercase;
+}
+/*#app{
+    background-image: url("template.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/

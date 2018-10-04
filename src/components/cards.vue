@@ -2,7 +2,7 @@
   <v-container>
   <v-layout row>
     <v-flex xs12 sm2 offset-sm2>
-      <v-card>
+      <v-card class="pa-2 ma-2">
         <v-img
           src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
           height="200px"
@@ -24,7 +24,7 @@
       </v-card>
     </v-flex>
     <v-flex xs12 sm2>
-      <v-card>
+      <v-card class="pa-2 ma-2">
         <v-img
           src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
           height="200px"
@@ -47,7 +47,7 @@
 
     </v-flex>
     <v-flex xs12 sm2>
-      <v-card>
+      <v-card class="pa-2 ma-2">
         <v-img
           src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
           height="200px"
@@ -69,7 +69,7 @@
       </v-card>
     </v-flex>
     <v-flex xs12 sm2>
-      <v-card>
+      <v-card class="pa-2 ma-2">
         <v-img
           src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
           height="200px"
@@ -94,7 +94,7 @@
   </v-layout>
   <v-layout row>
     <v-flex xs12 sm2 offset-sm2>
-      <v-card>
+      <v-card class="pa-2 ma-2">
         <v-img
           src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
           height="200px"
@@ -116,7 +116,7 @@
       </v-card>
     </v-flex>
     <v-flex xs12 sm2>
-      <v-card>
+      <v-card class="pa-2 ma-2">
         <v-img
           src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
           height="200px"
@@ -139,7 +139,7 @@
 
     </v-flex>
     <v-flex xs12 sm2>
-      <v-card>
+      <v-card class="pa-2 ma-2">
         <v-img
           src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
           height="200px"
@@ -161,7 +161,7 @@
       </v-card>
     </v-flex>
     <v-flex xs12 sm2>
-      <v-card>
+      <v-card class="pa-2 ma-2">
         <v-img
           src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
           height="200px"
